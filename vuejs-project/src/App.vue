@@ -1,19 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Btn>Click Me</Btn>
-  <FirstTitle></FirstTitle>
+  <div id="app" >
+<MainButton type="button">Click me</MainButton>
+  </div>
 </template>
 
 <script>
-import Btn from './components/Button'
-import FirstTitle from './components/FirstTitle.vue'
 
+import MainButton from './components/Button.vue'
 
 export default {
   name: 'App',
   components: {
-   Btn,
-   FirstTitle
+    MainButton
   }
 }
 </script>
