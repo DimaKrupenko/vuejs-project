@@ -2,20 +2,20 @@
   <div id="app" >
     <h1>{{ title }}</h1>
 <MainButton type="button" @click="increment">Click me</MainButton>
-<DirectivesTest></DirectivesTest>
+<StarRating></StarRating>
   </div>
 </template>
 
 <script>
 
 import MainButton from './components/Button.vue'
-import DirectivesTest from './components/DirectivesTest.vue'
+import StarRating from './components/StarRating.vue'
 
 export default {
   name: 'App',
   components: {
     MainButton,
-    DirectivesTest
+    StarRating
   },
   data() {
     return {
